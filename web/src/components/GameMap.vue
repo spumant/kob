@@ -1,6 +1,6 @@
 <template>
     <div ref="parent" class="gamemap"><!--只要在标签中加上ref就可以将变量与其关联-->
-        <canvas ref="canvas">
+        <canvas ref="canvas" tabindex="0">
 
         </canvas>
     </div>
