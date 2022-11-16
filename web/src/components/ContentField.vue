@@ -2,7 +2,7 @@
     <div class="container content-field">
         <div class="card">
             <div class="card-body">
-                <slot></slot><!--未来要被填充的地方需要一个slot-->
+                <slot></slot>
             </div>
         </div>
     </div>
@@ -12,8 +12,7 @@
 </script>
 
 <style scoped>
-div.content-field{
+div.content-field {
     margin-top: 20px;
-    
 }
 </style>
