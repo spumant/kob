@@ -34,7 +34,7 @@ public class WebSocketServer {
     //每个链接都是用session来维护的
     private Session session=null;
 
-    private static UserMapper userMapper;
+    public static UserMapper userMapper;
     public static RecordMapper recordMapper;
     public static BotMapper botMapper;
     public static RestTemplate restTemplate;
